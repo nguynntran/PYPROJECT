@@ -1,17 +1,22 @@
 # PYPROJECT
 
-## MY PERSONAL PYTHON PROJECT: CALORIES BURNT USING MACHINE LEARNING ##
+## MY PERSONAL PYTHON PROJECT: BUILDING PYTHON MUSIC PLAYER ##
 
-I. Description:
-- I will build a machine learning model using Python which can predict the number of calories a person has burnt during a workout based on some biological measures.
-- I will importing datasets, after that I will analize datasets, visualize the datatset to discover trends and patterns.
-- Next step, I will separate the features and target variables and split them into training and testing data 
-- I will find the prediction for calories burnt which related to some features likes body temperature, duration of workout, weight, height and so on,....
+### I. Description:
+- I will build a small music player apps to play music file in my computer
+- I will import some neccesary libraries and pictures to build app.
+- This app can play song likes Windows Media Player, I will two powerful Python libraries: Tkinter and Pygame. Tkinter will help us create the graphical user interface (GUI), while Pygame will handle the music playback.
 
-II. Functionality:
-- This model will give you a visualization of two datasets, which are imported.
-- Show you the trend of dataset, and give you prediction of calories burnt during workout exercise.
+### II. Functionality:
+These are some functionality in my app: 
 
-III. Architecture:
-- I will import some libraries: pandas, numpy, mathplotlib, season, sklearn and so on for analyzing, visualizing datasets and predicting the calories burnt.
-- Using XGBoost algorithms to predict calories burnt.
+- Add song from folder : Opens a dialog for you to choose a folder and loads all MP3 songs from that folder into the playlist.
+- Play music button : Plays the song you select or resumes playing if the music was paused.
+- Pause music button : Pauses the song that is currently playing.
+- Next song button: Plays the next song in the playlist.
+- Previous song button: Plays the previous song in the playlist.
+
+
+### III. Architecture:
+- I will import some neccesary libraries: Tkinter ,Pygame , os and requests library in the following manner to create the GUI, handle the music playback , to interact with the operating system to list MP3 files in a directory and to download the icons from weblinks
+- The Music Player App created using Python combines the Tkinter and Pygame libraries to offer a straightforward and user-friendly interface for playing music files.
